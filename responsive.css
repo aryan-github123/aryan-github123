@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1071px) {
+    .navbar {
+        flex-direction: column;
+        margin: auto;
+        height: 400px;
+        transition: all 0.5s ease;
+    }
+    .navbar h1 {
+        text-align: left;
+    }
+    .nav-list {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .nav-list li {
+        margin: -10px;
+    }
+    .navbar h1 {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: -15px;
+    }
+    .src {
+        text-align: center;
+    }
+    .search {
+        width: 70%;
+        max-width: 200px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .src .button {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav {
+        height: 72px;
+    }
+    .v-class {
+        display: none;
+    }
+    .secUp,
+    .secMiddle,
+    .secDown {
+        max-width: 850px;
+    }
+    .form {
+        height: 105vh;
+    }
+    .contact {
+        margin-top: 30px;
+        height: 110vh;
+    }
+    .contact .box {
+        max-width: 700px;
+    }
+    .contact .button {
+        margin-bottom: 300px;
+    }
+    .sectionTag {
+        font-size: 30px;
+        max-width: 500px;
+    }
+    .sectionSubTag {
+        font-size: 15px;
+        max-width: 500px;
+    }
+    .sub {
+        font-size: 15px;
+    }
+    .tmbn img {
+        height: 200px;
+        width: 200px;
+    }
+    .footer {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .sectionTag {
+        font-size: 32px;
+        max-width: 700px;
+    }
+    .sectionSubTag {
+        font-size: 17px;
+        max-width: 700px;
+    }
+    .sub {
+        font-size: 17px;
+    }
+    .tmbn img {
+        height: 200px;
+        width: 200px;
+    }
+}
